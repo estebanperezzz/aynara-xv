@@ -26,14 +26,14 @@ export function InvitationHeroMedia() {
         className="absolute -right-6 top-16 z-10 w-16 text-white/30"
       />
       <div className="liquid-glass-strong relative overflow-hidden rounded-[1.9rem] p-3">
-        <div className="relative aspect-[4/5] overflow-hidden rounded-[1.45rem] sm:aspect-[5/6]">
+        <div className="relative h-[96svh] min-h-[40rem] overflow-hidden rounded-[1.45rem] sm:h-auto sm:min-h-0 sm:aspect-[5/6]">
           <Image
             src="/1.jpg"
             alt="Aynara retrato principal"
             fill
             priority
             sizes="(max-width: 1024px) 100vw, 45vw"
-            className="object-cover"
+            className="object-cover object-[center_18%] sm:object-center"
           />
           <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(37,18,72,0.02),rgba(37,18,72,0.48))]" />
 
@@ -47,14 +47,14 @@ export function InvitationHeroMedia() {
           </div>
 
           <div className="absolute inset-x-0 bottom-0 p-4 sm:p-6">
-            <div className="liquid-glass rounded-[1.35rem] p-5 text-white sm:p-6">
+            <div className="liquid-glass rounded-[1.35rem] p-4 text-white sm:p-6">
               <p className="text-[0.68rem] uppercase tracking-[0.34em] text-white/75">
                 15 Años
               </p>
-              <p className="mt-3 font-heading text-4xl leading-none sm:text-5xl">
+              <p className="mt-2.5 font-heading text-3xl leading-none sm:mt-3 sm:text-5xl">
                 Una noche para recordar
               </p>
-              <p className="mt-4 max-w-sm text-sm leading-7 text-white/82">
+              <p className="mt-3 max-w-sm text-sm leading-6 text-white/82 sm:mt-4 sm:leading-7">
                 Te espero para compartir una celebracion inolvidable junto a quienes mas
                 quiero.
               </p>
