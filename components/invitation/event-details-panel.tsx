@@ -51,11 +51,11 @@ export function EventDetailsPanel() {
             Datos de la noche
           </p>
           <p className="mt-2 text-sm leading-7 text-muted-foreground sm:text-[0.95rem]">
-            20 junio · 21 hs · Salon Rosedal
+            20 de junio · 21 hs · Salón Rosedal
           </p>
         </div>
         <p className="max-w-sm text-sm leading-7 text-muted-foreground">
-          Una invitacion pensada para compartir una noche elegante, calida y llena de
+          Una invitación pensada para compartir una noche elegante, cálida y llena de
           momentos especiales.
         </p>
       </div>
@@ -93,7 +93,7 @@ export function EventDetailsPanel() {
             })
           )}
         >
-          Ver ubicacion
+          Ver ubicación
         </a>
       </div>
     </div>

@@ -33,8 +33,8 @@ export const eventDetails: EventDetail[] = [
   {
     icon: MapPin,
     label: "Lugar",
-    value: "Salon Rosedal",
-    note: "Bv. Batlle y Ordonez 3018",
+    value: "Salón Rosedal",
+    note: "Bv. Batlle y Ordóñez 3018",
     className: "",
   },
   {
@@ -47,7 +47,7 @@ export const eventDetails: EventDetail[] = [
 
 export const rsvpContacts: RsvpContact[] = [
   {
-    name: "Monica",
+    name: "Mónica",
     phone: "091 359 881",
     href: "https://wa.me/59891359881",
   },
@@ -116,4 +116,4 @@ export const galleryImages: GalleryImage[] = [
 ]
 
 export const mapHref =
-  "https://www.google.com/maps/search/?api=1&query=Salon+Rosedal,+Bv.+Batlle+y+Ordonez+3018"
+  "https://www.google.com/maps/search/?api=1&query=Salón+Rosedal,+Bv.+Batlle+y+Ordóñez+3018"

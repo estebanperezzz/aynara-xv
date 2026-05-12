@@ -31,7 +31,7 @@ export function MobileStickyActions() {
             })
           )}
         >
-          Como llegar
+          Cómo llegar
         </a>
       </div>
     </div>

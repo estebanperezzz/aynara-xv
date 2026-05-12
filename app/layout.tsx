@@ -15,7 +15,7 @@ const headingFont = Cormorant_Garamond({
 
 export const metadata: Metadata = {
   title: "Aynara XV",
-  description: "Base inicial para una invitacion de quince con Next.js, shadcn/ui y GSAP.",
+  description: "Base inicial para una invitación de quince con Next.js, shadcn/ui y GSAP.",
   icons: {
     icon: [
       {

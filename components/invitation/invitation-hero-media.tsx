@@ -29,7 +29,7 @@ export function InvitationHeroMedia() {
         <div className="relative h-[96svh] min-h-[40rem] overflow-hidden rounded-[1.45rem] sm:h-auto sm:min-h-0 sm:aspect-[5/6]">
           <Image
             src="/1.jpg"
-            alt="Aynara retrato principal"
+            alt="Aynara, retrato principal"
             fill
             priority
             sizes="(max-width: 1024px) 100vw, 45vw"
@@ -39,7 +39,7 @@ export function InvitationHeroMedia() {
 
           <div className="absolute inset-x-0 top-0 flex justify-between gap-2 p-4 sm:p-6">
             <div className="liquid-glass rounded-full px-3 py-1.5 text-[0.68rem] uppercase tracking-[0.28em] text-white">
-              20 Junio
+              20 de junio
             </div>
             <div className="liquid-glass rounded-full px-3 py-1.5 text-[0.68rem] uppercase tracking-[0.28em] text-white">
               21 hs
@@ -49,13 +49,13 @@ export function InvitationHeroMedia() {
           <div className="absolute inset-x-0 bottom-0 p-4 sm:p-6">
             <div className="liquid-glass rounded-[1.35rem] p-4 text-white sm:p-6">
               <p className="text-[0.68rem] uppercase tracking-[0.34em] text-white/75">
-                15 Años
+                15 años
               </p>
               <p className="mt-2.5 font-heading text-3xl leading-none sm:mt-3 sm:text-5xl">
                 Una noche para recordar
               </p>
               <p className="mt-3 max-w-sm text-sm leading-6 text-white/82 sm:mt-4 sm:leading-7">
-                Te espero para compartir una celebracion inolvidable junto a quienes mas
+                Te espero para compartir una celebración inolvidable junto a quienes más
                 quiero.
               </p>
             </div>

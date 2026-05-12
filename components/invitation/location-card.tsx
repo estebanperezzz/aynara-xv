@@ -33,9 +33,9 @@ export function LocationCard() {
             <MapPin className="h-5 w-5" />
           </div>
           <div>
-            <CardTitle className="font-heading text-3xl">Donde es</CardTitle>
+            <CardTitle className="font-heading text-3xl">Dónde es</CardTitle>
             <CardDescription className="text-sm leading-7 sm:text-base">
-              Salon Rosedal, Bv. Batlle y Ordonez 3018.
+              Salón Rosedal, Bv. Batlle y Ordóñez 3018.
             </CardDescription>
           </div>
         </div>
@@ -43,12 +43,12 @@ export function LocationCard() {
       <CardContent className="space-y-5 px-5 pb-6 sm:px-6 sm:pb-7">
         <div className="px-1 pt-1">
           <p className="text-[0.68rem] uppercase tracking-[0.32em] text-primary/72">
-            Direccion
+            Dirección
           </p>
           <p className="mt-3 text-[1.02rem] leading-7 font-medium text-foreground">
-            Bv. Batlle y Ordonez 3018
+            Bv. Batlle y Ordóñez 3018
           </p>
-          <p className="mt-1 text-sm leading-7 text-muted-foreground">Salon Rosedal</p>
+          <p className="mt-1 text-sm leading-7 text-muted-foreground">Salón Rosedal</p>
         </div>
         <a
           href={mapHref}

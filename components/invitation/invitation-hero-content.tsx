@@ -19,7 +19,7 @@ export function InvitationHeroContent() {
         variant="outline"
         className="liquid-glass-panel mb-4 rounded-full px-4 py-1.5 text-[0.68rem] uppercase tracking-[0.32em] text-primary shadow-none"
       >
-        Invitacion de quince
+        Invitación de quince
       </Badge>
 
       <PaintStroke
@@ -32,7 +32,7 @@ export function InvitationHeroContent() {
         data-animate="copy"
         className="mb-4 text-xs uppercase tracking-[0.38em] text-primary/70 sm:text-sm"
       >
-        Salon Rosedal · Vestimenta formal
+        Salón Rosedal · Vestimenta formal
       </p>
 
       <h1
@@ -55,7 +55,7 @@ export function InvitationHeroContent() {
         className="text-balance mt-5 max-w-xl text-base leading-8 text-muted-foreground sm:text-lg"
       >
         Te invito a celebrar conmigo una noche muy especial, llena de emociones,
-        musica y recuerdos para siempre.
+        música y recuerdos para siempre.
       </p>
 
       <EventDetailsPanel />

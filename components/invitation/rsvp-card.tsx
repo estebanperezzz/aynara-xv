@@ -74,7 +74,7 @@ export function RsvpCard() {
             Importante
           </p>
           <p className="mt-3 max-w-md text-sm leading-7 text-muted-foreground">
-            La fiesta comienza a las 21 hs en Salon Rosedal. La vestimenta es formal.
+            La fiesta comienza a las 21 hs en Salón Rosedal. La vestimenta es formal.
           </p>
         </div>
       </CardContent>
