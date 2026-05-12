@@ -66,20 +66,7 @@ export function EventDetailsPanel() {
         ))}
       </div>
 
-      <div className="relative mt-4 grid gap-3 sm:grid-cols-2">
-        <a
-          data-animate="action"
-          href="#confirmar"
-          className={cn(
-            buttonVariants({
-              size: "lg",
-              className:
-                "min-h-12 px-7 text-white shadow-[0_24px_44px_-24px_rgba(43,27,88,0.4)]",
-            })
-          )}
-        >
-          Confirmar asistencia
-        </a>
+      <div className="relative mt-4">
         <a
           data-animate="action"
           href={mapHref}
@@ -89,7 +76,7 @@ export function EventDetailsPanel() {
             buttonVariants({
               variant: "outline",
               size: "lg",
-              className: "min-h-12 px-7 text-foreground hover:bg-foreground/6",
+              className: "min-h-12 w-full px-7 text-foreground hover:bg-foreground/6",
             })
           )}
         >

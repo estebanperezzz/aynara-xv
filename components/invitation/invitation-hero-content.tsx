@@ -1,7 +1,5 @@
 import { Sparkles } from "lucide-react"
 
-import { Badge } from "@/components/ui/badge"
-
 import { EventDetailsPanel } from "./event-details-panel"
 import { LotusBloom, PaintStroke } from "./invitation-decorative-svgs"
 
@@ -14,30 +12,15 @@ export function InvitationHeroContent() {
         className="pointer-events-none absolute left-[-1.75rem] top-[8.75rem] hidden w-24 -rotate-[10deg] text-violet-400/26 lg:block"
       />
 
-      <Badge
-        data-animate="badge"
-        variant="outline"
-        className="liquid-glass-panel mb-4 rounded-full px-4 py-1.5 text-[0.68rem] uppercase tracking-[0.32em] text-primary shadow-none"
-      >
-        Invitación de quince
-      </Badge>
-
       <PaintStroke
         data-animate="decor"
         data-float="glide"
         className="absolute left-24 top-1 w-32 -rotate-[7deg] text-violet-300/34"
       />
 
-      <p
-        data-animate="copy"
-        className="mb-4 text-xs uppercase tracking-[0.38em] text-primary/70 sm:text-sm"
-      >
-        Salón Rosedal · Vestimenta formal
-      </p>
-
       <h1
         data-animate="title"
-        className="text-balance font-heading text-5xl leading-none font-semibold text-foreground sm:text-7xl lg:text-[6.15rem]"
+        className="text-balance pt-2 font-heading text-5xl leading-none font-semibold text-foreground sm:text-7xl lg:text-[6.15rem]"
       >
         Aynara <span className="text-primary">XV</span>
       </h1>

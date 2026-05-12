@@ -49,7 +49,7 @@ export function InvitationHeroMedia() {
           <div className="absolute inset-x-0 bottom-0 p-4 sm:p-6">
             <div className="liquid-glass rounded-[1.35rem] p-4 text-white sm:p-6">
               <p className="text-[0.68rem] uppercase tracking-[0.34em] text-white/75">
-                15 años
+                Mis 15 años
               </p>
               <p className="mt-2.5 font-heading text-3xl leading-none sm:mt-3 sm:text-5xl">
                 Una noche para recordar
