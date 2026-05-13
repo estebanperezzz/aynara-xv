@@ -8,6 +8,7 @@ import { InvitationHeroContent } from "./invitation-hero-content"
 import { InvitationHeroMedia } from "./invitation-hero-media"
 import { LocationCard } from "./location-card"
 import { MobileStickyActions } from "./mobile-sticky-actions"
+import { RsvpCard } from "./rsvp-card"
 import { useInvitationAnimations } from "./use-invitation-animations"
 
 export function InvitationShell() {
@@ -25,7 +26,8 @@ export function InvitationShell() {
           <InvitationHeroContent />
         </div>
 
-        <section className="mt-8 lg:mt-10">
+        <section className="mt-8 grid gap-5 lg:mt-10 lg:grid-cols-[1.02fr_0.98fr]">
+          <RsvpCard />
           <LocationCard />
         </section>
 
